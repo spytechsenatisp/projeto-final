@@ -1,0 +1,699 @@
+{
+    "chunks": [
+        {
+            "type": "txt",
+            "chunk_number": 1,
+            "lines": [
+                {
+                    "line_number": 1,
+                    "text": ""
+                },
+                {
+                    "line_number": 2,
+                    "text": "body {"
+                },
+                {
+                    "line_number": 3,
+                    "text": "font-family: Arial, sans-serif;"
+                },
+                {
+                    "line_number": 4,
+                    "text": "margin: 0;"
+                },
+                {
+                    "line_number": 5,
+                    "text": "padding: 0;"
+                },
+                {
+                    "line_number": 6,
+                    "text": "background-color: #f4f4f4;"
+                },
+                {
+                    "line_number": 7,
+                    "text": "color: #333;"
+                },
+                {
+                    "line_number": 8,
+                    "text": "}"
+                },
+                {
+                    "line_number": 9,
+                    "text": ""
+                },
+                {
+                    "line_number": 10,
+                    "text": "header {"
+                },
+                {
+                    "line_number": 11,
+                    "text": "background-color: #0078D7;"
+                },
+                {
+                    "line_number": 12,
+                    "text": "color: white;"
+                },
+                {
+                    "line_number": 13,
+                    "text": "padding: 20px;"
+                },
+                {
+                    "line_number": 14,
+                    "text": "text-align: center;"
+                },
+                {
+                    "line_number": 15,
+                    "text": "}"
+                },
+                {
+                    "line_number": 16,
+                    "text": ""
+                },
+                {
+                    "line_number": 17,
+                    "text": ".container {"
+                },
+                {
+                    "line_number": 18,
+                    "text": "display: flex;"
+                },
+                {
+                    "line_number": 19,
+                    "text": "flex-direction: row;"
+                },
+                {
+                    "line_number": 20,
+                    "text": "padding: 20px;"
+                },
+                {
+                    "line_number": 21,
+                    "text": "}"
+                },
+                {
+                    "line_number": 22,
+                    "text": ""
+                },
+                {
+                    "line_number": 23,
+                    "text": ".content {"
+                },
+                {
+                    "line_number": 24,
+                    "text": "flex: 3;"
+                },
+                {
+                    "line_number": 25,
+                    "text": "padding-right: 20px;"
+                },
+                {
+                    "line_number": 26,
+                    "text": "background-color: white;"
+                },
+                {
+                    "line_number": 27,
+                    "text": "padding: 20px;"
+                },
+                {
+                    "line_number": 28,
+                    "text": "box-shadow: 0 0 10px rgba(0,0,0,0.1);"
+                },
+                {
+                    "line_number": 29,
+                    "text": "}"
+                },
+                {
+                    "line_number": 30,
+                    "text": ""
+                },
+                {
+                    "line_number": 31,
+                    "text": ".sidebar {"
+                },
+                {
+                    "line_number": 32,
+                    "text": "flex: 1;"
+                },
+                {
+                    "line_number": 33,
+                    "text": "background-color: #fff;"
+                },
+                {
+                    "line_number": 34,
+                    "text": "padding: 20px;"
+                },
+                {
+                    "line_number": 35,
+                    "text": "box-shadow: 0 0 10px rgba(0,0,0,0.1);"
+                },
+                {
+                    "line_number": 36,
+                    "text": "}"
+                },
+                {
+                    "line_number": 37,
+                    "text": ""
+                },
+                {
+                    "line_number": 38,
+                    "text": ".sidebar img {"
+                },
+                {
+                    "line_number": 39,
+                    "text": "width: 100%;"
+                },
+                {
+                    "line_number": 40,
+                    "text": "margin-bottom: 15px;"
+                },
+                {
+                    "line_number": 41,
+                    "text": "border-radius: 5px;"
+                },
+                {
+                    "line_number": 42,
+                    "text": "}"
+                },
+                {
+                    "line_number": 43,
+                    "text": ""
+                },
+                {
+                    "line_number": 44,
+                    "text": "footer {"
+                },
+                {
+                    "line_number": 45,
+                    "text": "background-color: #333;"
+                },
+                {
+                    "line_number": 46,
+                    "text": "color: white;"
+                },
+                {
+                    "line_number": 47,
+                    "text": "text-align: center;"
+                },
+                {
+                    "line_number": 48,
+                    "text": "padding: 15px 0;"
+                },
+                {
+                    "line_number": 49,
+                    "text": "margin-top: 20px;"
+                },
+                {
+                    "line_number": 50,
+                    "text": "}"
+                },
+                {
+                    "line_number": 51,
+                    "text": ""
+                },
+                {
+                    "line_number": 52,
+                    "text": "/* Parte dos contatos*/"
+                },
+                {
+                    "line_number": 53,
+                    "text": ""
+                },
+                {
+                    "line_number": 54,
+                    "text": ""
+                },
+                {
+                    "line_number": 55,
+                    "text": ".integrante {"
+                },
+                {
+                    "line_number": 56,
+                    "text": "display: flex;"
+                },
+                {
+                    "line_number": 57,
+                    "text": "align-items: center;"
+                },
+                {
+                    "line_number": 58,
+                    "text": "gap: 15px;"
+                },
+                {
+                    "line_number": 59,
+                    "text": "margin-bottom: 20px;"
+                },
+                {
+                    "line_number": 60,
+                    "text": "}"
+                },
+                {
+                    "line_number": 61,
+                    "text": ""
+                },
+                {
+                    "line_number": 62,
+                    "text": ".integrante img {"
+                },
+                {
+                    "line_number": 63,
+                    "text": "width: 150px;"
+                },
+                {
+                    "line_number": 64,
+                    "text": "height: 150px;"
+                },
+                {
+                    "line_number": 65,
+                    "text": "border-radius: 8px;"
+                },
+                {
+                    "line_number": 66,
+                    "text": "object-fit: cover;"
+                },
+                {
+                    "line_number": 67,
+                    "text": "}"
+                },
+                {
+                    "line_number": 68,
+                    "text": ""
+                },
+                {
+                    "line_number": 69,
+                    "text": ".integrante .info {"
+                },
+                {
+                    "line_number": 70,
+                    "text": "display: flex;"
+                },
+                {
+                    "line_number": 71,
+                    "text": "flex-direction: column;"
+                },
+                {
+                    "line_number": 72,
+                    "text": "}"
+                },
+                {
+                    "line_number": 73,
+                    "text": ""
+                },
+                {
+                    "line_number": 74,
+                    "text": ".nome {"
+                },
+                {
+                    "line_number": 75,
+                    "text": "font-weight: bold;"
+                },
+                {
+                    "line_number": 76,
+                    "text": "margin: 0;"
+                },
+                {
+                    "line_number": 77,
+                    "text": "}"
+                },
+                {
+                    "line_number": 78,
+                    "text": ""
+                },
+                {
+                    "line_number": 79,
+                    "text": ".descricao {"
+                },
+                {
+                    "line_number": 80,
+                    "text": "font-size: 0.9em;"
+                },
+                {
+                    "line_number": 81,
+                    "text": "color: #0a7ac9;"
+                },
+                {
+                    "line_number": 82,
+                    "text": "margin: 2px 0 0 0;"
+                },
+                {
+                    "line_number": 83,
+                    "text": "}"
+                },
+                {
+                    "line_number": 84,
+                    "text": ""
+                },
+                {
+                    "line_number": 85,
+                    "text": ".tudo{"
+                },
+                {
+                    "line_number": 86,
+                    "text": "width: 290px;"
+                },
+                {
+                    "line_number": 87,
+                    "text": "height: 290px;"
+                },
+                {
+                    "line_number": 88,
+                    "text": "margin-bottom: 100px;"
+                },
+                {
+                    "line_number": 89,
+                    "text": "margin-top: 100px;"
+                },
+                {
+                    "line_number": 90,
+                    "text": "display: flex;"
+                },
+                {
+                    "line_number": 91,
+                    "text": "justify-content: space-between;"
+                },
+                {
+                    "line_number": 92,
+                    "text": "text-align: center;"
+                },
+                {
+                    "line_number": 93,
+                    "text": "padding-left: 100px;"
+                },
+                {
+                    "line_number": 94,
+                    "text": "padding-right: 100px;"
+                },
+                {
+                    "line_number": 95,
+                    "text": "gap: 30px;"
+                },
+                {
+                    "line_number": 96,
+                    "text": "}"
+                },
+                {
+                    "line_number": 97,
+                    "text": ".tudo2{"
+                },
+                {
+                    "line_number": 98,
+                    "text": "width: 290px;"
+                },
+                {
+                    "line_number": 99,
+                    "text": "height: 290px;"
+                },
+                {
+                    "line_number": 100,
+                    "text": "margin-bottom: 100px;"
+                },
+                {
+                    "line_number": 101,
+                    "text": "margin-top: 100px;"
+                },
+                {
+                    "line_number": 102,
+                    "text": "display: flex;"
+                },
+                {
+                    "line_number": 103,
+                    "text": "justify-content: space-between;"
+                },
+                {
+                    "line_number": 104,
+                    "text": "text-align: center;"
+                },
+                {
+                    "line_number": 105,
+                    "text": "padding-left: 100px;"
+                },
+                {
+                    "line_number": 106,
+                    "text": "padding-right: 100px;"
+                },
+                {
+                    "line_number": 107,
+                    "text": "gap: 30px;"
+                },
+                {
+                    "line_number": 108,
+                    "text": "}"
+                },
+                {
+                    "line_number": 109,
+                    "text": ""
+                },
+                {
+                    "line_number": 110,
+                    "text": ""
+                },
+                {
+                    "line_number": 111,
+                    "text": ""
+                },
+                {
+                    "line_number": 112,
+                    "text": "/* Responsividade para tablets e celulares */"
+                },
+                {
+                    "line_number": 113,
+                    "text": "@media (max-width: 1024px) {"
+                },
+                {
+                    "line_number": 114,
+                    "text": ".container {"
+                },
+                {
+                    "line_number": 115,
+                    "text": "flex-direction: column;"
+                },
+                {
+                    "line_number": 116,
+                    "text": "padding: 10px;"
+                },
+                {
+                    "line_number": 117,
+                    "text": "}"
+                },
+                {
+                    "line_number": 118,
+                    "text": ""
+                },
+                {
+                    "line_number": 119,
+                    "text": ".content, .sidebar {"
+                },
+                {
+                    "line_number": 120,
+                    "text": "width: 100%;"
+                },
+                {
+                    "line_number": 121,
+                    "text": "padding: 10px;"
+                },
+                {
+                    "line_number": 122,
+                    "text": "box-shadow: none;"
+                },
+                {
+                    "line_number": 123,
+                    "text": "}"
+                },
+                {
+                    "line_number": 124,
+                    "text": ""
+                },
+                {
+                    "line_number": 125,
+                    "text": ".tudo, .tudo2 {"
+                },
+                {
+                    "line_number": 126,
+                    "text": "flex-direction: column;"
+                },
+                {
+                    "line_number": 127,
+                    "text": "align-items: center;"
+                },
+                {
+                    "line_number": 128,
+                    "text": "padding: 0;"
+                },
+                {
+                    "line_number": 129,
+                    "text": "}"
+                },
+                {
+                    "line_number": 130,
+                    "text": ""
+                },
+                {
+                    "line_number": 131,
+                    "text": ".tudo img, .tudo2 img {"
+                },
+                {
+                    "line_number": 132,
+                    "text": "width: 90%;"
+                },
+                {
+                    "line_number": 133,
+                    "text": "height: auto;"
+                },
+                {
+                    "line_number": 134,
+                    "text": "margin-bottom: 20px;"
+                },
+                {
+                    "line_number": 135,
+                    "text": "}"
+                },
+                {
+                    "line_number": 136,
+                    "text": ""
+                },
+                {
+                    "line_number": 137,
+                    "text": ".integrante {"
+                },
+                {
+                    "line_number": 138,
+                    "text": "flex-direction: column;"
+                },
+                {
+                    "line_number": 139,
+                    "text": "align-items: center;"
+                },
+                {
+                    "line_number": 140,
+                    "text": "text-align: center;"
+                },
+                {
+                    "line_number": 141,
+                    "text": "}"
+                },
+                {
+                    "line_number": 142,
+                    "text": ""
+                },
+                {
+                    "line_number": 143,
+                    "text": ".integrante img {"
+                },
+                {
+                    "line_number": 144,
+                    "text": "width: 120px;"
+                },
+                {
+                    "line_number": 145,
+                    "text": "height: 120px;"
+                },
+                {
+                    "line_number": 146,
+                    "text": "}"
+                },
+                {
+                    "line_number": 147,
+                    "text": ""
+                },
+                {
+                    "line_number": 148,
+                    "text": ".tudo, .tudo2 {"
+                },
+                {
+                    "line_number": 149,
+                    "text": "width: 100%;"
+                },
+                {
+                    "line_number": 150,
+                    "text": "height: auto;"
+                },
+                {
+                    "line_number": 151,
+                    "text": "margin: 50px 0;"
+                },
+                {
+                    "line_number": 152,
+                    "text": "gap: 10px;"
+                },
+                {
+                    "line_number": 153,
+                    "text": "}"
+                },
+                {
+                    "line_number": 154,
+                    "text": "}"
+                },
+                {
+                    "line_number": 155,
+                    "text": ""
+                },
+                {
+                    "line_number": 156,
+                    "text": "@media (max-width: 600px) {"
+                },
+                {
+                    "line_number": 157,
+                    "text": "header, footer {"
+                },
+                {
+                    "line_number": 158,
+                    "text": "padding: 10px;"
+                },
+                {
+                    "line_number": 159,
+                    "text": "text-align: center;"
+                },
+                {
+                    "line_number": 160,
+                    "text": "}"
+                },
+                {
+                    "line_number": 161,
+                    "text": ""
+                },
+                {
+                    "line_number": 162,
+                    "text": "h1, h2, h3 {"
+                },
+                {
+                    "line_number": 163,
+                    "text": "font-size: 1.2em;"
+                },
+                {
+                    "line_number": 164,
+                    "text": "}"
+                },
+                {
+                    "line_number": 165,
+                    "text": ""
+                },
+                {
+                    "line_number": 166,
+                    "text": ".descricao {"
+                },
+                {
+                    "line_number": 167,
+                    "text": "font-size: 0.8em;"
+                },
+                {
+                    "line_number": 168,
+                    "text": "}"
+                },
+                {
+                    "line_number": 169,
+                    "text": ".menu{"
+                },
+                {
+                    "line_number": 170,
+                    "text": "background-color: rgb(0, 4, 252);"
+                },
+                {
+                    "line_number": 171,
+                    "text": "}"
+                },
+                {
+                    "line_number": 172,
+                    "text": "}"
+                }
+            ],
+            "token_count": 507
+        }
+    ]
+}
