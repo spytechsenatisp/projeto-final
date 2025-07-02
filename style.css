@@ -49,27 +49,7 @@ footer {
   margin-top: 20px;
 }
 
-
-
-/* teste
-.sidebar{
-  width: 50px;
-}
-
-
-
-.contato{
-  width: 50px;
-}
-
-.grupo{
-  width: 150px;
- 
-}
-
-*/
-
-/* Parte dos contatos*/
+                                                                                    /* Parte dos contatos*/
 
 
 .integrante {
@@ -103,8 +83,8 @@ footer {
 }
 
 .tudo{
-  width: 250px;
-  height: 250px;
+  width: 290px;
+  height: 290px;
   margin-bottom: 100px;
   margin-top: 100px;
   display: flex;
@@ -112,11 +92,11 @@ footer {
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
-  gap: 20px;
+  gap: 30px;
 }
 .tudo2{
-  width: 250px;
-  height: 250px;
+  width: 290px;
+  height: 290px;
   margin-bottom: 100px;
   margin-top: 100px;
   display: flex;
@@ -124,5 +104,87 @@ footer {
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
-  gap: 20px;
+  gap: 30px;
+}
+
+
+
+                                                                            /* Responsividade para tablets e celulares */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .content, .sidebar {
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .tudo, .tudo2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .tudo img, .tudo2 img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .integrante {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .integrante img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .tudo, .tudo2 {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  header, footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  .descricao {
+    font-size: 0.8em;
+  }
+  .menu{
+    background-color: rgb(0, 4, 252);
+  }
+  .escola{
+    width: 600px;
+    height: 400px;
+  }
+  .planta{
+    width: 470px;
+    height: 350px;
+  }
+  .video1{
+    width: 470px;
+    height: 350px;
+  }
+  .ip{
+    width: 470px;
+    height: 350px;
+  }
+ 
+
 }
